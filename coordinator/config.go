@@ -5,9 +5,9 @@ package coordinator
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/monitor/diagnostics"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/toml"
+	"github.com/pineda89/influxdb/monitor/diagnostics"
+	"github.com/pineda89/influxdb/query"
+	"github.com/pineda89/influxdb/toml"
 )
 
 const (

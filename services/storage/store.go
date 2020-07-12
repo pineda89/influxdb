@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/services/meta"
+	"github.com/pineda89/influxdb/tsdb"
 	"go.uber.org/zap"
 )
 

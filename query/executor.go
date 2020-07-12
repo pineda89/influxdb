@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/pineda89/influxdb/models"
 	"github.com/influxdata/influxql"
 	"go.uber.org/zap"
 )

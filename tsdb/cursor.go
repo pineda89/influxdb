@@ -3,8 +3,8 @@ package tsdb
 import (
 	"context"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/query"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/query"
 )
 
 // EOF represents a "not found" key returned by a Cursor.

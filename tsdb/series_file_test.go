@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/tsdb"
 )
 
 // Ensure series file contains the correct set of series.

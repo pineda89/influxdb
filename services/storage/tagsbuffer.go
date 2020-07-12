@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"github.com/influxdata/influxdb/models"
+	"github.com/pineda89/influxdb/models"
 )
 
 type tagsBuffer struct {

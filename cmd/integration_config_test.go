@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	client "github.com/influxdata/influxdb/client/v2"
+	client "github.com/pineda89/influxdb/client/v2"
 )
 
 func TestRetentionAutocreate(t *testing.T) {

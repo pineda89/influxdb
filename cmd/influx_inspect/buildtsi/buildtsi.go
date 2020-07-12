@@ -12,11 +12,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/tsdb"
+	"github.com/pineda89/influxdb/tsdb/engine/tsm1"
+	"github.com/pineda89/influxdb/tsdb/index/tsi1"
 	"go.uber.org/zap"
 )
 

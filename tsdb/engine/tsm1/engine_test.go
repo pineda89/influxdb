@@ -20,13 +20,13 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/deep"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/pkg/deep"
+	"github.com/pineda89/influxdb/query"
+	"github.com/pineda89/influxdb/tsdb"
+	"github.com/pineda89/influxdb/tsdb/engine/tsm1"
+	"github.com/pineda89/influxdb/tsdb/index/inmem"
 	"github.com/influxdata/influxql"
 )
 

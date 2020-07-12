@@ -6,9 +6,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/prometheus/remote"
-	"github.com/influxdata/influxdb/services/storage"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/prometheus/remote"
+	"github.com/pineda89/influxdb/services/storage"
 )
 
 const (

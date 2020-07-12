@@ -1,6 +1,6 @@
 package internal
 
-import "github.com/influxdata/influxdb/tsdb"
+import "github.com/pineda89/influxdb/tsdb"
 
 var (
 	_ tsdb.IntegerBatchCursor  = NewIntegerBatchCursorMock()

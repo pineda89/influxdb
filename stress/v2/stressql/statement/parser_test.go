@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/stress/v2/statement"
+	"github.com/pineda89/influxdb/stress/v2/statement"
 )
 
 func newParserFromString(s string) *Parser {

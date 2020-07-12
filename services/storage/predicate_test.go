@@ -3,8 +3,8 @@ package storage_test
 import (
 	"testing"
 
-	"github.com/influxdata/influxdb/pkg/testing/assert"
-	"github.com/influxdata/influxdb/services/storage"
+	"github.com/pineda89/influxdb/pkg/testing/assert"
+	"github.com/pineda89/influxdb/services/storage"
 	"github.com/influxdata/influxql"
 )
 

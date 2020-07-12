@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influx_inspect/verify/seriesfile"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/cmd/influx_inspect/verify/seriesfile"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/tsdb"
 )
 
 func TestVerifies_Valid(t *testing.T) {

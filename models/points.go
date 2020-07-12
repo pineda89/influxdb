@@ -1,5 +1,5 @@
 // Package models implements basic objects used throughout the TICK stack.
-package models // import "github.com/influxdata/influxdb/models"
+package models // import "github.com/pineda89/influxdb/models"
 
 import (
 	"bytes"
@@ -15,7 +15,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/influxdata/influxdb/pkg/escape"
+	"github.com/pineda89/influxdb/pkg/escape"
 )
 
 type escapeSet struct {

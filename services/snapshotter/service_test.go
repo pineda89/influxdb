@@ -12,12 +12,12 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/influxdata/influxdb/internal"
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/services/snapshotter"
-	"github.com/influxdata/influxdb/tcp"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/internal"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/services/meta"
+	"github.com/pineda89/influxdb/services/snapshotter"
+	"github.com/pineda89/influxdb/tcp"
+	"github.com/pineda89/influxdb/tsdb"
 	"github.com/influxdata/influxql"
 )
 

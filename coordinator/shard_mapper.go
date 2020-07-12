@@ -5,9 +5,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/query"
+	"github.com/pineda89/influxdb/services/meta"
+	"github.com/pineda89/influxdb/tsdb"
 	"github.com/influxdata/influxql"
 )
 

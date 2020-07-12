@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/tlv"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/tlv"
 )
 
 func TestReadLV_LengthExceedsMax(t *testing.T) {

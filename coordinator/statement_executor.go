@@ -11,14 +11,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/monitor"
-	"github.com/influxdata/influxdb/pkg/tracing"
-	"github.com/influxdata/influxdb/pkg/tracing/fields"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/monitor"
+	"github.com/pineda89/influxdb/pkg/tracing"
+	"github.com/pineda89/influxdb/pkg/tracing/fields"
+	"github.com/pineda89/influxdb/query"
+	"github.com/pineda89/influxdb/services/meta"
+	"github.com/pineda89/influxdb/tsdb"
 	"github.com/influxdata/influxql"
 )
 

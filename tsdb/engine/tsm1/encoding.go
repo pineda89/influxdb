@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/influxdata/influxdb/pkg/pool"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/pkg/pool"
+	"github.com/pineda89/influxdb/tsdb"
 	"github.com/influxdata/influxql"
 )
 

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/influxdata/influxdb/query"
+	"github.com/pineda89/influxdb/query"
 	"github.com/influxdata/influxql"
 )
 

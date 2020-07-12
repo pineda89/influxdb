@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/format"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/escape"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/format"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/pkg/escape"
+	"github.com/pineda89/influxdb/tsdb"
 	"github.com/influxdata/influxql"
 )
 

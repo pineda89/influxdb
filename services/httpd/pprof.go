@@ -14,7 +14,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
+	"github.com/pineda89/influxdb/models"
 )
 
 // handleProfiles determines which profile to return to the requester.

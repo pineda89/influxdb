@@ -10,8 +10,8 @@ import (
 	"context"
 	"sort"
 
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/query"
+	"github.com/pineda89/influxdb/tsdb"
 )
 
 // buildFloatCursor creates a cursor for a float field.

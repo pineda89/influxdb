@@ -10,9 +10,9 @@ import (
 
 	"fmt"
 
-	"github.com/influxdata/influxdb/cmd/influxd/backup"
-	"github.com/influxdata/influxdb/cmd/influxd/restore"
-	"github.com/influxdata/influxdb/toml"
+	"github.com/pineda89/influxdb/cmd/influxd/backup"
+	"github.com/pineda89/influxdb/cmd/influxd/restore"
+	"github.com/pineda89/influxdb/toml"
 	"strings"
 )
 

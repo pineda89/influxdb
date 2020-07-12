@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/format"
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/format/binary"
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/format/line"
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/format/text"
-	"github.com/influxdata/influxdb/cmd/influx-tools/server"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/format"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/format/binary"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/format/line"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/format/text"
+	"github.com/pineda89/influxdb/cmd/influx-tools/server"
 	"go.uber.org/zap"
 )
 

@@ -14,11 +14,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bytesutil"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/pkg/bytesutil"
+	"github.com/pineda89/influxdb/pkg/estimator"
+	"github.com/pineda89/influxdb/tsdb"
 	"github.com/influxdata/influxql"
 	"go.uber.org/zap"
 )

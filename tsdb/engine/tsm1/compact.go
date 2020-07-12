@@ -25,8 +25,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/pkg/limiter"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/pkg/limiter"
+	"github.com/pineda89/influxdb/tsdb"
 )
 
 const maxTSMFileSize = uint32(2048 * 1024 * 1024) // 2GB

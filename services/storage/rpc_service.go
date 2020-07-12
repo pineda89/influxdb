@@ -7,15 +7,15 @@ import (
 	"strings"
 
 	"github.com/gogo/protobuf/types"
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/pkg/metrics"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/pkg/metrics"
+	"github.com/pineda89/influxdb/tsdb/engine/tsm1"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"go.uber.org/zap"
 )
 
-//go:generate protoc -I$GOPATH/src/github.com/influxdata/influxdb/vendor -I. --plugin=protoc-gen-yarpc=$GOPATH/bin/protoc-gen-yarpc --yarpc_out=Mgoogle/protobuf/empty.proto=github.com/gogo/protobuf/types:. --gogofaster_out=Mgoogle/protobuf/empty.proto=github.com/gogo/protobuf/types:. storage.proto predicate.proto
+//go:generate protoc -I$GOPATH/src/github.com/pineda89/influxdb/vendor -I. --plugin=protoc-gen-yarpc=$GOPATH/bin/protoc-gen-yarpc --yarpc_out=Mgoogle/protobuf/empty.proto=github.com/gogo/protobuf/types:. --gogofaster_out=Mgoogle/protobuf/empty.proto=github.com/gogo/protobuf/types:. storage.proto predicate.proto
 //go:generate tmpl -data=@batch_cursor.gen.go.tmpldata batch_cursor.gen.go.tmpl
 //go:generate tmpl -data=@batch_cursor.gen.go.tmpldata response_writer.gen.go.tmpl
 

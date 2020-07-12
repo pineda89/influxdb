@@ -17,11 +17,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/limiter"
-	"github.com/influxdata/influxdb/pkg/metrics"
-	"github.com/influxdata/influxdb/query"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/pkg/limiter"
+	"github.com/pineda89/influxdb/pkg/metrics"
+	"github.com/pineda89/influxdb/query"
+	"github.com/pineda89/influxdb/tsdb"
 	"go.uber.org/zap"
 )
 

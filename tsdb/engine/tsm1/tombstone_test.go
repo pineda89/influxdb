@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/pineda89/influxdb/tsdb/engine/tsm1"
 )
 
 func TestTombstoner_Add(t *testing.T) {

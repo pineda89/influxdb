@@ -8,13 +8,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/influxdb/internal"
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/slices"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/index/inmem"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/pineda89/influxdb/internal"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/pkg/slices"
+	"github.com/pineda89/influxdb/tsdb"
+	"github.com/pineda89/influxdb/tsdb/index/inmem"
+	"github.com/pineda89/influxdb/tsdb/index/tsi1"
 	"github.com/influxdata/influxql"
 )
 

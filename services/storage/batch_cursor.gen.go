@@ -9,7 +9,7 @@ package storage
 import (
 	"errors"
 
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/tsdb"
 )
 
 // ********************

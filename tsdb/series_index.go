@@ -7,9 +7,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/mmap"
-	"github.com/influxdata/influxdb/pkg/rhh"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/pkg/mmap"
+	"github.com/pineda89/influxdb/pkg/rhh"
 )
 
 const (

@@ -3,7 +3,7 @@ package metrics
 import (
 	"testing"
 
-	"github.com/influxdata/influxdb/pkg/testing/assert"
+	"github.com/pineda89/influxdb/pkg/testing/assert"
 )
 
 func TestRegistry_MustRegisterCounter(t *testing.T) {

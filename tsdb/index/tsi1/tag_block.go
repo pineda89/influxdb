@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/influxdata/influxdb/pkg/rhh"
+	"github.com/pineda89/influxdb/pkg/rhh"
 )
 
 // TagBlockVersion is the version of the tag block.

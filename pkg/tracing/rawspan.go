@@ -3,8 +3,8 @@ package tracing
 import (
 	"time"
 
-	"github.com/influxdata/influxdb/pkg/tracing/fields"
-	"github.com/influxdata/influxdb/pkg/tracing/labels"
+	"github.com/pineda89/influxdb/pkg/tracing/fields"
+	"github.com/pineda89/influxdb/pkg/tracing/labels"
 )
 
 // RawSpan represents the data associated with a span.

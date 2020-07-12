@@ -11,23 +11,23 @@ import (
 	"strings"
 
 	"github.com/BurntSushi/toml"
-	"github.com/influxdata/influxdb/coordinator"
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/monitor"
-	"github.com/influxdata/influxdb/monitor/diagnostics"
-	"github.com/influxdata/influxdb/services/collectd"
-	"github.com/influxdata/influxdb/services/continuous_querier"
-	"github.com/influxdata/influxdb/services/graphite"
-	"github.com/influxdata/influxdb/services/httpd"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/services/opentsdb"
-	"github.com/influxdata/influxdb/services/precreator"
-	"github.com/influxdata/influxdb/services/retention"
-	"github.com/influxdata/influxdb/services/storage"
-	"github.com/influxdata/influxdb/services/subscriber"
-	"github.com/influxdata/influxdb/services/udp"
-	itoml "github.com/influxdata/influxdb/toml"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/coordinator"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/monitor"
+	"github.com/pineda89/influxdb/monitor/diagnostics"
+	"github.com/pineda89/influxdb/services/collectd"
+	"github.com/pineda89/influxdb/services/continuous_querier"
+	"github.com/pineda89/influxdb/services/graphite"
+	"github.com/pineda89/influxdb/services/httpd"
+	"github.com/pineda89/influxdb/services/meta"
+	"github.com/pineda89/influxdb/services/opentsdb"
+	"github.com/pineda89/influxdb/services/precreator"
+	"github.com/pineda89/influxdb/services/retention"
+	"github.com/pineda89/influxdb/services/storage"
+	"github.com/pineda89/influxdb/services/subscriber"
+	"github.com/pineda89/influxdb/services/udp"
+	itoml "github.com/pineda89/influxdb/toml"
+	"github.com/pineda89/influxdb/tsdb"
 	"golang.org/x/text/encoding/unicode"
 	"golang.org/x/text/transform"
 )
@@ -122,7 +122,7 @@ func (c *Config) FromTomlFile(fpath string) error {
 	// Handle any potential Byte-Order-Marks that may be in the config file.
 	// This is for Windows compatibility only.
 	// See https://github.com/influxdata/telegraf/issues/1378 and
-	// https://github.com/influxdata/influxdb/issues/8965.
+	// https://github.com/pineda89/influxdb/issues/8965.
 	bom := unicode.BOMOverride(transform.Nop)
 	bs, _, err = transform.Bytes(bom, bs)
 	if err != nil {

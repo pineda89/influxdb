@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/influxdata/influxdb/pkg/mmap"
+	"github.com/pineda89/influxdb/pkg/mmap"
 )
 
 func TestMap(t *testing.T) {

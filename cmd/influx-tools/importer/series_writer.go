@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/errlist"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/errlist"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/tsdb"
+	"github.com/pineda89/influxdb/tsdb/engine/tsm1"
+	"github.com/pineda89/influxdb/tsdb/index/tsi1"
 )
 
 type seriesWriter struct {

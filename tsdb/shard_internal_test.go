@@ -14,8 +14,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/models"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/models"
 	"github.com/influxdata/influxql"
 )
 

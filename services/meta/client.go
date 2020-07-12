@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/logger"
+	"github.com/pineda89/influxdb"
+	"github.com/pineda89/influxdb/logger"
 	"github.com/influxdata/influxql"
 	"go.uber.org/zap"
 

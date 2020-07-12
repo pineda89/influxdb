@@ -13,10 +13,10 @@ import (
 	"fmt"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/influxdata/influxdb"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/query"
-	internal "github.com/influxdata/influxdb/services/meta/internal"
+	"github.com/pineda89/influxdb"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/query"
+	internal "github.com/pineda89/influxdb/services/meta/internal"
 	"github.com/influxdata/influxql"
 )
 

@@ -3,7 +3,7 @@ package fields
 import (
 	"testing"
 
-	"github.com/influxdata/influxdb/pkg/testing/assert"
+	"github.com/pineda89/influxdb/pkg/testing/assert"
 )
 
 func makeFields(args ...string) Fields {

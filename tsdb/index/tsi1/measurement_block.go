@@ -8,10 +8,10 @@ import (
 	"sort"
 	"unsafe"
 
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/pkg/estimator/hll"
-	"github.com/influxdata/influxdb/pkg/rhh"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/pkg/estimator"
+	"github.com/pineda89/influxdb/pkg/estimator/hll"
+	"github.com/pineda89/influxdb/pkg/rhh"
+	"github.com/pineda89/influxdb/tsdb"
 )
 
 // MeasurementBlockVersion is the version of the measurement block.

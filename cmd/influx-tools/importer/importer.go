@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/errlist"
-	"github.com/influxdata/influxdb/cmd/influx-tools/server"
-	"github.com/influxdata/influxdb/services/meta"
-	"github.com/influxdata/influxdb/tsdb"
-	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/errlist"
+	"github.com/pineda89/influxdb/cmd/influx-tools/server"
+	"github.com/pineda89/influxdb/services/meta"
+	"github.com/pineda89/influxdb/tsdb"
+	"github.com/pineda89/influxdb/tsdb/engine/tsm1"
 	"go.uber.org/zap"
 )
 

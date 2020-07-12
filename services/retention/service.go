@@ -1,12 +1,12 @@
 // Package retention provides the retention policy enforcement service.
-package retention // import "github.com/influxdata/influxdb/services/retention"
+package retention // import "github.com/pineda89/influxdb/services/retention"
 
 import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/influxdb/logger"
-	"github.com/influxdata/influxdb/services/meta"
+	"github.com/pineda89/influxdb/logger"
+	"github.com/pineda89/influxdb/services/meta"
 	"go.uber.org/zap"
 )
 

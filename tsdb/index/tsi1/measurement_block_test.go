@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/influxdata/influxdb/tsdb/index/tsi1"
+	"github.com/pineda89/influxdb/tsdb/index/tsi1"
 )
 
 func TestReadMeasurementBlockTrailer(t *testing.T) {

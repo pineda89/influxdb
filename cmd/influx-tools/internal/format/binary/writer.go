@@ -6,10 +6,10 @@ import (
 	"io"
 	"time"
 
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/format"
-	"github.com/influxdata/influxdb/cmd/influx-tools/internal/tlv"
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/format"
+	"github.com/pineda89/influxdb/cmd/influx-tools/internal/tlv"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/tsdb"
 	"github.com/influxdata/influxql"
 )
 

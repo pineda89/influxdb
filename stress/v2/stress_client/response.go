@@ -3,7 +3,7 @@ package stressClient
 import (
 	"log"
 
-	influx "github.com/influxdata/influxdb/client/v2"
+	influx "github.com/pineda89/influxdb/client/v2"
 )
 
 // Response holds data scraped from InfluxDB HTTP responses turned into a *influx.Point for reporting

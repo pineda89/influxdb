@@ -9,10 +9,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/influxdata/influxdb/models"
-	"github.com/influxdata/influxdb/pkg/bytesutil"
-	"github.com/influxdata/influxdb/pkg/estimator"
-	"github.com/influxdata/influxdb/query"
+	"github.com/pineda89/influxdb/models"
+	"github.com/pineda89/influxdb/pkg/bytesutil"
+	"github.com/pineda89/influxdb/pkg/estimator"
+	"github.com/pineda89/influxdb/query"
 	"github.com/influxdata/influxql"
 	"go.uber.org/zap"
 )

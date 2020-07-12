@@ -9,7 +9,7 @@ import (
 	"sort"
 
 	"github.com/gogo/protobuf/proto"
-	internal "github.com/influxdata/influxdb/query/internal"
+	internal "github.com/pineda89/influxdb/query/internal"
 	"github.com/influxdata/influxql"
 )
 

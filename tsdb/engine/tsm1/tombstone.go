@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdata/influxdb/tsdb"
+	"github.com/pineda89/influxdb/tsdb"
 )
 
 const (
